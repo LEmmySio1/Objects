@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Objects</title>
+
+    <script>
+        const Apple = {
+            Color: "Green",
+            Amnt: "1"
+        }
+    </script>
+</head>
+<body>
+
+    <p> The color of the apple is: <span id="appleColor"></span></p>
+    <p> And the amount of apples is: <span id="appleAmnt"></span></p>
+
+    <script> 
+        document.getElementById("appleColor").innerHTML = Apple.Color;
+        document.getElementById("appleAmnt").innerHTML = Apple.Amnt;
+    </script>
+    
+</body>
+</html>
